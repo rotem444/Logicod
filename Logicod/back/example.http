@@ -1,0 +1,23 @@
+###singin
+POST http://localhost:3900/user/signin
+Content-Type: application/json
+
+{
+    "name": "ron",
+    "email": "rony44@gmail.com",
+    "password": "abc123",
+    "status": "teacher"
+}
+
+###cms
+POST http://localhost:3900/cms/add
+Content-Type: application/json
+
+{
+    "premises": ["P", "P⇒Q"],
+    "conclusion": "Q",
+    "rules": ["E⇒"],
+    "lesson": 1,
+    "question": 3,
+    "teacher_email": "rotems1234@gmail.com"
+}

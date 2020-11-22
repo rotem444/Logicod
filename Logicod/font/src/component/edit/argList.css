@@ -1,0 +1,7 @@
+.argLineButton {
+  visibility: hidden;
+}
+
+.argLine:hover .argLineButton {
+  visibility: visible;
+}
